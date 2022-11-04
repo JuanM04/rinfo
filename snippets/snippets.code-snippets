@@ -1,0 +1,54 @@
+{
+  "comenzar-fin": {
+    "prefix": "comenzar",
+    "body": ["comenzar", "  $1", "fin"]
+  },
+  "Programa básico": {
+    "prefix": "programa",
+    "isFileTemplate": true,
+    "body": [
+      "programa ${1:nombrePrograma}",
+      "areas",
+      "  ciudad: AreaC(1,1,100,100)",
+      "robots",
+      "  robot robot1",
+      "  comenzar",
+      "    $2",
+      "  fin",
+      "variables",
+      "  Rinfo: robot1",
+      "comenzar",
+      "  AsignarArea(Rinfo,ciudad)",
+      "  Iniciar(Rinfo,1,1)",
+      "fin",
+      ""
+    ],
+    "description": "Programa básico"
+  },
+  "Robot": {
+    "prefix": "robot",
+    "body": [
+      "robot ${1:tipoRobot}",
+      "variables",
+      "  $2",
+      "comenzar",
+      "  $3",
+      "fin",
+      ""
+    ],
+    "description": "Estructura básica de un robot"
+  },
+  "Proceso": {
+    "prefix": "proceso",
+    "body": [
+      "proceso ${1:nombreProceso}",
+      "variables",
+      "  $2",
+      "comenzar",
+      "  $3",
+      "fin",
+      ""
+    ],
+    "description": "Estructura básica de un proceso"
+  }
+}

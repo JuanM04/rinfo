@@ -1,0 +1,15 @@
+{
+  "comments": {
+    "blockComment": ["{", "}"]
+  },
+  "brackets": [["(", ")"]],
+  "autoClosingPairs": [
+    ["{", "}"],
+    ["(", ")"]
+  ],
+  "surroundingPairs": [
+    ["{", "}"],
+    ["(", ")"],
+    ["comenzar", "fin"]
+  ]
+}

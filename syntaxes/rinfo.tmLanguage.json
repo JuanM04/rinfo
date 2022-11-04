@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "R-Info",
+  "patterns": [
+    {
+      "name": "keyword.control.rinfo",
+      "match": "\\b(si|sino|mientras|repetir)\\b"
+    },
+    {
+      "name": "keyword.other.rinfo",
+      "match": "\\b(programa|procesos|proceso|robots|robot|areas|variables|comenzar|fin)\\b"
+    },
+    {
+      "name": "entity.name.function.rinfo",
+      "match": "\\b(mover|derecha|tomarFlor|depositarFlor|tomarPapel|depositarPapel|BloquearEsquina|LiberarEsquina|EnviarMensaje|RecibirMensaje|Pos|Informar|Leer|Iniciar|AsignarArea)\\b"
+    },
+    {
+      "name": "entity.name.class.rinfo",
+      "match": "\\b(HayFlorEnLaBolsa|HayFlorEnLaEsquina|HayPapelEnLaBolsa|HayPapelEnLaEsquina|PosCa|PosAv)\\b"
+    },
+    {
+      "name": "storage.modifier.rinfo",
+      "match": "\\b(AreaC|AreaP|AreaPC)\\b"
+    },
+    {
+      "name": "constant.language.boolean.rinfo",
+      "match": "\\b(V|F)\\b"
+    },
+    {
+      "name": "support.type.rinfo",
+      "match": "\\b(boolean|numero|ES|E|S)\\b"
+    },
+    {
+      "match": "\\+|-|\\*|/",
+      "name": "keyword.operator.arithmetic.rinfo"
+    },
+    {
+      "match": "<|>|<=|>=|=|<>|!=",
+      "name": "keyword.operator.comparison.rinfo"
+    },
+    {
+      "match": ":=",
+      "name": "keyword.operator.assign.rinfo"
+    },
+    {
+      "match": "(&|~)",
+      "name": "keyword.operator.logical.rinfo"
+    },
+    {
+      "name": "comment.rinfo",
+      "begin": "{",
+      "end": "}"
+    },
+    {
+      "match": "(-)?(?:((?:\\b\\d+(?:\\.\\d*)?|\\.\\d+)(?:\\b|e-?\\d+\\b)%?)|(\\$[0-9]+\\b))",
+      "captures": {
+        "1": { "name": "keyword.operator.arithmetic.rinfo" },
+        "2": { "name": "constant.numeric.decimal.rinfo" },
+        "3": { "name": "constant.numeric.hex.rinfo" }
+      }
+    }
+  ],
+  "scopeName": "source.rinfo"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "rinfo-unlp",
+  "displayName": "R-Info",
+  "description": "Soporte para el lenguaje R-Info (Facultad de Informática, UNLP)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "rinfo",
+        "aliases": [
+          "R-Info",
+          "rinfo"
+        ],
+        "extensions": [
+          ".ri",
+          ".rinfo"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rinfo",
+        "scopeName": "source.rinfo",
+        "path": "./syntaxes/rinfo.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "rinfo",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
