@@ -3,6 +3,12 @@
   "displayName": "R-Info",
   "description": "Soporte para el lenguaje R-Info (Facultad de Informática, UNLP)",
   "version": "0.0.1",
+  "author": "Juan Martín Seery <me@juanm04.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanM04/rinfo.git"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.73.0"
   },
