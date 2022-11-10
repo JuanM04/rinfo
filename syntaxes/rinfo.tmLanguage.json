@@ -27,8 +27,12 @@
       "match": "\\b(V|F)\\b"
     },
     {
-      "name": "support.type.rinfo",
-      "match": "\\b(boolean|numero|ES|E|S)\\b"
+      "name": "entity.name.type.rinfo",
+      "match": "\\b(boolean|numero)\\b"
+    },
+    {
+      "name": "variable.parameter.type.rinfo",
+      "match": "\\b(ES|E|S)\\b"
     },
     {
       "match": "\\+|-|\\*|/",
