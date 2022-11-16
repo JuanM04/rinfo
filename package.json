@@ -44,5 +44,11 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.14.0"
   }
 }
