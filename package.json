@@ -2,7 +2,7 @@
   "name": "rinfo-unlp",
   "displayName": "R-Info",
   "description": "Soporte para el lenguaje R-Info (Facultad de Informática, UNLP)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "juanm04",
   "author": "Juan Martín Seery <me@juanm04.com>",
   "repository": {

@@ -1,3 +1,3 @@
-# R-Info VS Code
+# ⚠️ ADVERTENCIA ⚠️
 
-Soporte para R-Info en Visual Studio Code
+Esta extensión dejó de ser mantenida. Obtén la última versión descargando [UNLP](https://marketplace.visualstudio.com/items?itemName=juanm04.unlp).
